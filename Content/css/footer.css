@@ -1,0 +1,37 @@
+.footer {
+    height: 280px;
+    width:100%;
+    background: rgba(237, 205, 31, 1);
+}
+
+.b220-footer {
+    color:#fff;
+    /* font: normal normal normal 70px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif; */
+    font-family: Poppins,sans-serif !important;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#topButton {
+    margin-left:auto;
+    margin-right:auto;
+    background: none !important;
+}
+
+#topButton i {
+    font-size:40px;
+}
+
+.deco-footer {
+    height:5px;
+    width:100px;
+    background:#fff;
+    margin-bottom : 20px;
+    margin-top: 20px;
+}
+.mail-footer {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    /* text-decoration: underline; */
+}

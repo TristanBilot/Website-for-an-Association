@@ -1,0 +1,56 @@
+
+.event{
+	background-color: rgba(0,0,0,0.05); 
+	border-radius:1em;
+	border:0px;
+	text-align:center;
+	padding:0.5em 2em 1.5em 2em;
+}
+
+img.icon{
+	width:20px;
+	height:20px;
+	margin-left : 1em;
+	transition-duration: 0.3s;
+}
+.event table{
+	border: 3px solid #000;
+	width: auto;
+	margin: 1em auto;
+	border-collapse: collapse;
+}
+.event table th{
+	font-size: 1.2em;
+	border: 1px solid #666;
+	text-align:center;
+	padding: 0.4em 1em 0.4em 1em;
+	background-color: rgba(237, 205, 31, 1);
+	transition-duration: 0.3s;
+	border-collapse: collapse;
+}
+/* .event table tr:hover>th{
+	font-size: 2em;
+	transition-duration: 0.3s;
+}
+.event table tr:hover>th>img{
+	width:40px;
+	height:40px;
+	margin-left : 1em;
+	transition-duration: 0.3s;
+} */
+
+
+.event img#desc{
+	height:65%;
+	width:auto;
+	transition-duration:.7s;
+}
+/* .event img#desc:hover{
+	height:70%;
+	width:auto;
+	transition-duration:.7s;
+} */
+.event h1{
+	font :normal normal normal 45px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+	color: #666; 
+}

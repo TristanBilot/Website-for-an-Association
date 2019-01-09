@@ -1,0 +1,180 @@
+/* LE CODE CSS POUR LES PAGES DE CHAQUE ARTICLE */
+
+.page {
+    background: #fff;
+     height: auto;
+    display: block;
+    padding:40px;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+/* ARTICLE 1 */
+
+.titreArticle1, h1 {
+    font-size: 40px;
+}
+
+.para1Article1 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.article1, p {
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.42857143;
+    font-weight: 200;
+}
+
+/* ARTICLE 2 */
+
+
+.introArticle2 {
+    display : flex;
+    flex-direction : row;
+    }
+    
+.article2texte1 {
+    padding-top: 5%;
+    padding-left: 21%;
+    line-height: 1.5;
+}
+
+.article2texte2 {
+    margin-top: 35px;
+}
+
+.images3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.images2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+p{
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.42857143;
+    font-weight: 200;
+    }
+
+.imageMedaille {
+    margin-right: 70px;
+}
+
+.partager {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.partager, h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.titreArticle2, h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* ARTICLE 3 */ 
+
+.para1Article3 {
+    margin-top: 5%;
+    text-align : justify;
+    font-family: "Roboto", sans-serif;
+    color: #3a3a3a;
+    line-height:1.5;
+}
+
+.para1Article3 p{
+    font-size: 17px;
+}
+
+.para2Article3 p{
+    font-size: 17px;
+}
+
+.imageNuitInfo {
+    margin-top: 5%;
+}
+
+.jumbotron h1 {
+    font-size: 30px;
+}
+
+
+/* ARTICLE 4 */
+
+
+.article4image1 {
+  margin-top: 5%;
+  margin-left: 25px;
+  left: 80%;
+}
+
+
+.article4texte1 {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+
+.article4texte1, p {
+    margin-top: 1%;
+    text-align : justify;
+    font-family: "Roboto", sans-serif;
+    color: #3a3a3a;
+    line-height: 1.5;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+/* ARTICLE 6 */
+
+.introarticle6 {
+  margin-top: 10%;
+}
+
+
+/* RESEAUX SOCIAUX */
+
+.fa {
+  padding: 15px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}

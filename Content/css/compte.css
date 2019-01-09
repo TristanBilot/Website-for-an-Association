@@ -1,0 +1,36 @@
+.modal-content-compte {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 66%; 
+    border-radius: 2%;
+}
+
+.descriptionLabel {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.box_container_compte {
+    padding: 40px;
+}
+
+img.avatar {    
+    border-radius: 100%;
+    width:150px;
+}
+
+.box-info {
+    border: 1px solid black;
+    padding-left: 40px;
+}
+
+
+input:focus {
+    border-bottom-color: rgba(237, 205, 31, 1) !important;
+}
+
+.input-group {
+    width:80%;
+}

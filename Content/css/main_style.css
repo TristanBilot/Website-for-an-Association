@@ -1,0 +1,250 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.page {
+    background: #fff;
+     height: auto;
+    display: block;
+    padding:40px;
+}
+
+body {
+    background-image: url(../../Content/img/bckg_img.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+}
+
+.margin-bottom {
+    margin-bottom: 60px;
+}
+
+/* VIGNETTES ARTICLES */
+.article-style {
+    background: rgb(247,247,247);
+    height: 300px;
+    
+}
+
+.article-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+.article-style:hover .article-title{
+    color: rgba(237, 205, 31, 1);
+    transition: 100ms ease-in-out;
+    text-decoration: underline;
+}
+
+.article-style:hover {
+    cursor: pointer;
+}
+
+.article-img {
+    background-size: cover;
+    height: 200px;
+    margin:10px;
+}
+
+.img-article1 {
+    background-image: url(../../Content/img/img-articles/article1.jpg);
+}
+.img-article2 {
+    background-image: url(../../Content/img/img-articles/article2.jpg);
+}
+.img-article3 {
+    background-image: url(../../Content/img/img-articles/article3.jpg);
+}
+.img-article4 {
+    background-image: url(../../Content/img/img-articles/article4.jpg);
+}
+.img-article5 {
+    background-image: url(../../Content/img/img-articles/article5.jpg);
+}
+.img-article6 {
+    background-image: url(../../Content/img/img-articles/article6.jpg);
+}
+
+
+/* ASSOCIATION DIV */
+.assocation_right_img {
+    background-image: url(../../Content/img/assoc_iut.jpg) !important;
+    background-attachment: fixed;
+    background-size: cover !important;
+    height:800px;
+}
+
+.association_elem {
+    background: #fff;
+    height:800px;
+}
+
+.association_text {
+    font-size: 18px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: #3B3A3A !important;
+}
+
+.association_block {
+    padding:30px;
+}
+
+.association_title {
+    margin-top:30px;
+    font: normal normal normal 55px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #C6C6C6;
+    font-weight: bold;
+}
+
+.association_little_title {
+    font: normal normal normal 23px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: rgba(237, 205, 31, 1);
+}
+
+.association_deco {
+    height:10px;
+    width:100px;
+    background:rgba(237, 205, 31, 1);
+    margin-bottom : 20px;
+    margin-top: 40px;
+}
+
+/* DIV L'EQUIPE */
+
+.equipe_div {
+    background: rgb(30, 45, 58);
+    height: 800px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+.equipe_bckg {
+    background: rgb(30, 45, 58);
+}
+
+.equipe_title {
+    margin-top:50px;
+    font: normal normal normal 55px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+.equipe_photo img{
+    width:100%;
+}
+
+/* BANDEAU CHIFFRES */
+
+.chiffres_div {
+    width:100%;    
+    background:rgba(237, 205, 31, 1);
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.chiffre {
+    font: normal normal normal 55px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+.def {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chiffre_element {
+    margin-left:40px;
+    margin-right:40px;
+    display: inline-block;
+}
+
+.baton {
+    display: inline-block;
+    width:2px;
+    height:40px;
+    background: #fff;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+/* CONTACT */
+
+.contact_div {
+    background: #fff;
+}
+
+.page_bordure {
+    background: #fff;
+     height: auto;
+    display: block;
+    border: solid rgba(237, 205, 31, 1) 40px;
+}
+
+.association_deco_equipe {
+    height:10px;
+    width:100px;
+    background:rgba(237, 205, 31, 1);
+    margin-bottom : 20px;
+    margin-top: 40px;
+    margin-left: 30%;
+}
+
+.equipe_photo img{
+    width:100%;
+}
+.equipe_photo1{
+    width: 100%;
+    text-align:center;
+    margin-right:90px;
+
+}
+
+.equipe_photo1 img{
+    margin-right: 60px;
+    width: 304px;
+    height: 302px;
+
+}
+
+
+.association_text  p{
+    text-align: center left;
+}
+
+/* a changer */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+
+table, td {
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 8px;
+}
+
+.modal input {
+    font-size: 18px;
+    color: rgb(90,90,90);
+}
+
+.modal button {
+    margin-top:10px;
+    font-size: 20px;
+}
+
+.modal .close {
+    font-size: 50px;
+}
+
+.form-horizontal .control-label {
+    font-size: 14px;
+}
